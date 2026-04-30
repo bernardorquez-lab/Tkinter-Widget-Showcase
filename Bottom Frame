@@ -3,7 +3,7 @@ import tkinter as tk
 root = tk.Tk() 
 root.geometry("1200x750")
 
-top_frame = tk.Frame(root, bg="violet", relief="sunken", borderwidth=10 ) 
+top_frame = tk.Frame(root, bg="violet", relief="sunken", borderwidth=10) 
 top_frame.pack(side="bottom", fill="x")
 
 label = tk.Label(top_frame, text="This is a Frame!", bg="blue", font=("Arial", 24)) 
